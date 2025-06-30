@@ -1,3 +1,3 @@
-function showMessage() {
-  document.getElementById("message").textContent = "Thanks for clicking!";
+ function exploreNow() {
+  alert("Explore our latest deals!");
 }

@@ -1,23 +1,53 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>My Portfolio</title>
+  <title>Nithin's Store</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple static website hosted using GitHub Pages.</p>
+    <div class="logo">NithinCart</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Offers</a>
+      <a href="#">Contact</a>
+    </nav>
   </header>
-  <main>
-    <button onclick="showMessage()">Click Me</button>
-    <p id="message"></p>
-  </main>
+
+  <section class="hero">
+    <h1>Welcome to NithinCart</h1>
+    <p>Your one-stop shop for gadgets, food, and more!</p>
+    <button onclick="exploreNow()">Explore Now</button>
+  </section>
+
+  <section class="products">
+    <h2>Top Deals</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 1" />
+        <h3>Smartphone</h3>
+        <p>Starting at ₹4999</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 2" />
+        <h3>Headphones</h3>
+        <p>Flat 30% Off</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product 3" />
+        <h3>Zomato Deal</h3>
+        <p>50% Off on First Order</p>
+      </div>
+    </div>
+  </section>
+
   <footer>
-    <p>Created by Nithin Reddy</p>
+    <p>© 2025 NithinCart. All rights reserved.</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
